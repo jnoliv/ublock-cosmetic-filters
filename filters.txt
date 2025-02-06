@@ -1,0 +1,13 @@
+# [06/02/2025] Hide reaction content (likes, loves, supports, etc) from LinkedIn feed.
+# Makes the feed slightly janky to scroll through, but that's a trade-off I'm willing to make.
+linkedin.com##:xpath(//span[text()[contains(.,'celebrate this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'celebrates this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'find this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'finds this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'like this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'likes this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'love this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'loves this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'reacted to this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'support this')]]):upward(7)
+linkedin.com##:xpath(//span[text()[contains(.,'supports this')]]):upward(7)
