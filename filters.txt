@@ -1,6 +1,6 @@
 ! Title: jnoliv's Cosmetic Filters
 ! Description: Custom filters for annoying elements and content in websites I browse.
-! Version: 2025.02.06
+! Version: 2025.02.12
 ! Homepage: https://github.com/jnoliv/ublock-cosmetic-filters
 ! License: MIT
 ! Expires: 1 day
@@ -19,3 +19,6 @@ linkedin.com##:xpath(//span[text()[contains(.,'loves this')]]):upward(7)
 linkedin.com##:xpath(//span[text()[contains(.,'reacted to this')]]):upward(7)
 linkedin.com##:xpath(//span[text()[contains(.,'support this')]]):upward(7)
 linkedin.com##:xpath(//span[text()[contains(.,'supports this')]]):upward(7)
+
+! [12/'2/2025] Remove annoying signup bar in old Reddit.
+old.reddit.com##.listingsignupbar.infobar
